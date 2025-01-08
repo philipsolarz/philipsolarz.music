@@ -1,0 +1,34 @@
+{
+    "tracks": [
+        {
+            "id": 1,
+            "title": "Astrobeat",
+            "releaseDate": "2024-12-13",
+            "coverArt": "/philip_solarz_astrobeat_artwork.webp?height=400&width=400",
+            "audioUrl": "/audio/philip_solarz_astrobeat_original_mix.mp3",
+            "soundCloud": "https://soundcloud.com/philipsolarz/philip-solarz-astro-beat",
+            "youTube": "#",
+            "spotify": "#",
+            "downloadUrl": "/audio/philip_solarz_astrobeat_original_mix.mp3",
+            "bpm": 135,
+            "key": "",
+            "duration": 349,
+            "description": "A steady, spacey journey through the stars. Astrobeat features a consistent groove with driving drums, a simple yet atmospheric melody, and subtle psychedelic touches that keep the energy balanced and immersive."
+        },
+        {
+            "id": 2,
+            "title": "Dark Matter",
+            "releaseDate": "2023-11-15",
+            "coverArt": "/vercel.svg?height=400&width=400",
+            "audioUrl": "https://onlinetestcase.com/wp-content/uploads/2023/06/1-MB-MP3.mp3",
+            "soundCloud": "https://soundcloud.com/example/dark-matter",
+            "youTube": "https://youtube.com/watch?v=example2",
+            "spotify": "https://open.spotify.com/track/example2",
+            "downloadUrl": "https://example.com/download/dark-matter",
+            "bpm": 132,
+            "key": "Am",
+            "duration": 380,
+            "description": "Deep, rolling techno with industrial elements and haunting atmospheres. Perfect for peak-time warehouse moments."
+        }
+    ]
+}
