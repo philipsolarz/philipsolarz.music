@@ -24,7 +24,6 @@ export function WaveformPlayer() {
 
     const toggleMute = () => {
         setIsMuted(!isMuted);
-        // setVolume(isMuted ? volume : 0);
     }
 
     const handleVolumeMouseEnter = () => {
@@ -48,7 +47,6 @@ export function WaveformPlayer() {
             height: 48,
             cursorWidth: 0,
             normalize: true,
-            // responsive: true,
         })
 
         wavesurfer.current.on('ready', () => {
