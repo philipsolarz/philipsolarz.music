@@ -66,7 +66,7 @@ export function WaveformPlayer() {
             wavesurfer.current?.destroy()
             wavesurfer.current = null
         }
-    }, [])
+    }, [isMuted, volume, updateProgress, state.isPlaying])
 
     useEffect(() => {
         if (!wavesurfer.current || !state.currentTrack) return

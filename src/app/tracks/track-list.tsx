@@ -1,14 +1,14 @@
 'use client'
 
 import { Button } from "@/components/ui/button"
-import { Download, Music2, Youtube, Play, Pause } from 'lucide-react'
+import { Download, Play, Pause } from 'lucide-react'
 import Image from "next/image"
 import Link from "next/link"
 import type { Track } from "./types"
 import { useAudioPlayer } from "../context/audio-player-context"
 import { ShareButton } from "../components/share-button"
 import { SiSoundcloud, SiSpotify, SiYoutube } from "@icons-pack/react-simple-icons"
-import ShineBorder from "../../components/ui/shine-border";
+// import ShineBorder from "../../components/ui/shine-border";
 
 export function TrackList({ tracks }: { tracks: Track[] }) {
     const { state, togglePlayPause } = useAudioPlayer()

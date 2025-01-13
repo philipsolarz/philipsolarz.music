@@ -4,7 +4,7 @@ import { ArrowLeft } from 'lucide-react'
 import Link from 'next/link'
 import Image from 'next/image'
 import { Button } from "@/components/ui/button"
-import { Download, Music2, Youtube, Play, Pause } from 'lucide-react'
+import { Download, Play, Pause } from 'lucide-react'
 import { ShareButton } from "../../components/share-button"
 import tracksData from '@/data/tracks.json'
 import { notFound } from 'next/navigation'
