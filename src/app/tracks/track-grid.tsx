@@ -17,7 +17,7 @@ export function TrackGrid({ tracks }: { tracks: Track[] }) {
     return (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {tracks.map((track) => {
-                const shareUrl = `${window.location.origin}/tracks/${track.id}`
+                // const shareUrl = `${window.location.origin}/tracks/${track.id}`
                 return (
 
                     <Card key={track.id} className="bg-black/50 border-white/10 backdrop-blur-sm overflow-hidden">
@@ -58,11 +58,11 @@ export function TrackGrid({ tracks }: { tracks: Track[] }) {
                                     </Link>
 
                                     <div className="flex items-center gap-2 shrink-0">
-                                        <ShareButton
+                                        {/* <ShareButton
                                             url={shareUrl}
                                             title={`Listen to ${track.title} by Philip Solarz`}
                                             size="sm"
-                                        />
+                                        /> */}
                                         <Button
                                             variant="ghost"
                                             size="sm"

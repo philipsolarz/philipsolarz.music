@@ -16,7 +16,7 @@ export function TrackList({ tracks }: { tracks: Track[] }) {
     return (
         <div className="space-y-2">
             {tracks.map((track) => {
-                const shareUrl = `${window.location.origin}/tracks/${track.id}`
+                // const shareUrl = `${window.location.origin}/tracks/${track.id}`
                 return (
                     <div
                         key={track.id}
@@ -52,11 +52,11 @@ export function TrackList({ tracks }: { tracks: Track[] }) {
                         </Link>
 
                         <div className="flex items-center gap-2 shrink-0">
-                            <ShareButton
+                            {/* <ShareButton
                                 url={shareUrl}
                                 title={`Listen to ${track.title} by Philip Solarz`}
                                 size="sm"
-                            />
+                            /> */}
                             <Button
                                 variant="ghost"
                                 size="sm"

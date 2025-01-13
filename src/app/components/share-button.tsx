@@ -37,7 +37,7 @@ export function ShareButton({ url, title, size = "default" }: ShareButtonProps) 
             </DropdownMenuTrigger>
             <DropdownMenuContent align="end" className="w-[200px] bg-black/90 border-white/10">
                 <DropdownMenuItem className="focus:bg-white/10">
-                    <FacebookShareButton url={url} quote={title} className="w-full">
+                    <FacebookShareButton url={url} className="w-full">
                         <div className="flex items-center gap-2">
                             <FacebookIcon size={24} round />
                             <span>Facebook</span>
